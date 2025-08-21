@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+}
+
+.bill{
+    border: 5px solid #708090;
+    border-radius: 5%;
+}
+.billhead{
+    color: darkgreen;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.billheader{
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+
+.skyblue{
+    background-color:lightgray;
+    padding-left: 10px;
+    margin-left: 10px;  margin-right: 10px;
+    border: 2px solid #708090;
+}
+
+.green{
+    color: darkgreen;
+}
+
+.addresslink{
+    text-align:center;
+    background-color: black;
+    font-size: 2.5rem;
+    color: white;
+    padding: 15px;
+    border: 2px solid #708090;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+p{
+font-family: "Source Sans 3", sans-serif;
+    font-size: 2.5remrem;
+}
+
+h1,h2,h3,h4{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 2.5rem;
+}
+
+.bluetext{
+    color: mediumblue;
+}
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  
+
+  p {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  
+
+  img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
